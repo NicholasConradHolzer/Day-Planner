@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!--Save/Floppy-Disk Icon-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!--Body Font-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -30,6 +33,194 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!--Cards for each hour of the day follow format=
+
+      <div class="row time-block" id="
+      [HOUR ID LISTED IN XX FORMAT FOLLOWING 24 HOUR CLOCK:00, 01, 02, ..., 23, 24]
+      ">
+        <div class="col-1 hour pt-2">
+          [HOUR IN XX:00 XM FOLLOWING 12-HOUR CLOCK]
+        </div>
+        <textarea class="col-10 task">
+          [THIS IS WHERE USER CAN INPUT TASK IN HOUR CARD AS TEXT-STRING]
+        </textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+      -->
+      <div class="row time-block" id="00">
+        <div class="col-1 hour pt-2">12:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="01">
+        <div class="col-1 hour pt-2">01:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="02">
+        <div class="col-1 hour pt-2">02:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="03">
+        <div class="col-1 hour pt-2">03:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="04">
+        <div class="col-1 hour pt-2">04:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="05">
+        <div class="col-1 hour pt-2">05:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="06">
+        <div class="col-1 hour pt-2">06:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="07">
+        <div class="col-1 hour pt-2">07:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="08">
+        <div class="col-1 hour pt-2">08:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="09">
+        <div class="col-1 hour pt-2">09:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="10">
+        <div class="col-1 hour pt-2">10:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="11">
+        <div class="col-1 hour pt-2">11:00 AM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <!--AM/PM Switch-->
+      <div class="row time-block" id="12">
+        <div class="col-1 hour pt-2">12:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="13">
+        <div class="col-1 hour pt-2">01:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="14">
+        <div class="col-1 hour pt-2">02:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="15">
+        <div class="col-1 hour pt-2">03:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="16">
+        <div class="col-1 hour pt-2">04:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="17">
+        <div class="col-1 hour pt-2">05:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="18">
+        <div class="col-1 hour pt-2">06:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="19">
+        <div class="col-1 hour pt-2">07:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="20">
+        <div class="col-1 hour pt-2">08:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="21">
+        <div class="col-1 hour pt-2">09:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="22">
+        <div class="col-1 hour pt-2">10:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+      <div class="row time-block" id="23">
+        <div class="col-1 hour pt-2">11:00 PM</div>
+        <textarea class="col-10 task"></textarea>
+        <button class="col-1 svBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </div>
+
+    
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
