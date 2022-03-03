@@ -9,7 +9,7 @@ $(function() {
 //>
     //Page Header Day/Time moment.js threads
     $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
-    $("#currentTime").text(moment().format('hh:mm'));
+    $("#currentTime").text(moment().format('hh:mm A'));
 
 //>
     //Color-Coded Hour-Cards indicate Past-hours=WHITE; Future=GREEN; and Current=RED

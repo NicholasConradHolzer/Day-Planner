@@ -21,10 +21,15 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-  /*background-color: #000000;
-  color: #fff;*/
+#currentTime {
+  font-size: 25px;
+  display: inline-block;
+  background-color: aqua;
+  padding:7pt;
+  border-style: dotted;
+  border-color:#000000;
+  border-width: 2px;
+  border-radius: 24px;
 }
 
 .time-block {
