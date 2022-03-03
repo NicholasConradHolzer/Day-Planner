@@ -29,7 +29,7 @@ $(function() {
         var when = $(this).siblings(".hour").text();
         var task = $(this).siblings(".task").val();
 
-        localStorage.setITem(when, task);
+        localStorage.setItem(when, task);
     });
 //>
     //Refresh Local Persistance
@@ -45,5 +45,6 @@ $(function() {
     }
 hourIndicate();
 persist();
+
 });
 
